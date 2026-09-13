@@ -8,7 +8,10 @@ as new.
 ## Official and community apps
 
 - **Official** apps live under the [ProjectChrysalis](https://github.com/ProjectChrysalis)
-  organization and are maintained by the Chrysalis team.
+  organization and are maintained by the Chrysalis team. Their repositories end
+  in `-Chrysalis` (for example
+  [Roleplay-Chrysalis](https://github.com/ProjectChrysalis/Roleplay-Chrysalis)),
+  so the official apps are easy to find.
 - **Community** apps are everything else. They are made by other people and
   run real code on the Chrysalis server they are installed on, so Chrysalis
   shows what each one's plugins can do before it installs.
