@@ -16,7 +16,7 @@
     {
       "id": "sillytavern",
       "name": "SillyTavern",
-      "description": "SillyTavern, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis staging.",
+      "description": "SillyTavern, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis 1.0.4 or later.",
       "author": "cata02222",
       "repository": "https://github.com/cata02222/chrysalis-sillytavern",
       "tags": [
@@ -29,7 +29,7 @@
     {
       "id": "marinara",
       "name": "Marinara",
-      "description": "Marinara Engine, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis staging.",
+      "description": "Marinara Engine, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis 1.0.4 or later.",
       "author": "cata02222",
       "repository": "https://github.com/cata02222/chrysalis-marinara",
       "tags": [
