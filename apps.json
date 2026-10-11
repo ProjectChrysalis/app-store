@@ -6,8 +6,38 @@
       "description": "A roleplay studio for power users: characters, group chats, swipes and branches, presets, lorebooks, regex, memory, and imports of the common community card and preset formats.",
       "author": "Project Chrysalis",
       "repository": "https://github.com/ProjectChrysalis/Roleplay-Chrysalis",
-      "tags": ["roleplay", "characters", "chat"],
+      "tags": [
+        "roleplay",
+        "characters",
+        "chat"
+      ],
       "added": "2026-09-13"
+    },
+    {
+      "id": "sillytavern",
+      "name": "SillyTavern",
+      "description": "SillyTavern, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis staging.",
+      "author": "cata02222",
+      "repository": "https://github.com/cata02222/chrysalis-sillytavern",
+      "tags": [
+        "roleplay",
+        "characters",
+        "chat"
+      ],
+      "added": "2026-10-11"
+    },
+    {
+      "id": "marinara",
+      "name": "Marinara",
+      "description": "Marinara Engine, run as its own program beside Chrysalis and shown in a tab. Uses the models you already connected. Unofficial wrapper. Requires Chrysalis staging.",
+      "author": "cata02222",
+      "repository": "https://github.com/cata02222/chrysalis-marinara",
+      "tags": [
+        "roleplay",
+        "characters",
+        "chat"
+      ],
+      "added": "2026-10-11"
     }
   ]
 }

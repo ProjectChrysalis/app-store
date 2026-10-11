@@ -69,7 +69,11 @@ for (const [i, raw] of apps.entries()) {
       const manifest = JSON.parse(fs.readFileSync(path.join(dir, "manifest.json"), "utf8")) as Record<string, unknown>;
       if (!text(manifest.name, 200)) fail(where, "the app's manifest.json has no name");
       if (typeof manifest.version !== "string") fail(where, "the app's manifest.json has no version");
-      if (!["web", "app", "skin", "vite"].includes(String(manifest.kind))) fail(where, 'the app\'s manifest.json kind must be "web", "app" or "skin"');
+      if (!["web", "app", "skin", "vite", "service"].includes(String(manifest.kind))) fail(where, 'the app\'s manifest.json kind must be "web", "app", "skin" or "service"');
+      if (manifest.kind === "service") {
+        const command = (manifest.service as { command?: unknown } | undefined)?.command;
+        if (!Array.isArray(command) || !command.length || command.some((w) => typeof w !== "string" || !w)) fail(where, "a service app's manifest.json needs service.command, the program to start as a list of words");
+      }
     } catch (err) {
       fail(where, `could not clone it and read manifest.json: ${String((err as Error).message).split("\n")[0]}`);
     } finally {

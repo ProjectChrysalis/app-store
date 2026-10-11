@@ -19,6 +19,13 @@ as new.
 Official status comes from where an app's repository lives, not from this
 list: nothing in an entry can make an app official.
 
+Service apps currently require the Chrysalis staging build.
+
+Some apps are **service apps** (`"kind": "service"` in their `manifest.json`):
+they start their own program on the computer running Chrysalis, outside the
+sandbox. Chrysalis marks them as such, and an admin approves the exact program
+before it first starts.
+
 ## Add your app
 
 1. Make sure your app works with **Import app** in the Chrysalis launcher. The
